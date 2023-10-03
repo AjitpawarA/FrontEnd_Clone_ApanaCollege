@@ -1,0 +1,91 @@
+/* -----Mobile----- */
+
+@media (min-width: 320px) and (max-width: 640px) {
+  nav button {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  nav img {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  nav .navcontent {
+    width: 500px;
+    text-align: left;
+    justify-content: left;
+    margin-top: 30px;
+  }
+  .navcontent ul {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 40px;
+    gap: 25px;
+  }
+  #more {
+    margin-right: 30px;
+  }
+  .slidmain {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .slileft {
+    margin-bottom: 30px;
+  }
+  .courosel {
+    padding: 0px;
+  }
+
+  .home1 {
+    height: 100%;
+    flex-direction: column;
+  }
+  .home1 .text {
+    width: 100%;
+    padding-left: 0px;
+    align-items: left;
+    padding-left: 50px;
+    gap: 0;
+    padding-top: 30px;
+  }
+  .home1 .text .p1 {
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .home1 .img {
+    width: 100%;
+    padding: 20px;
+  }
+  .home2 {
+    height: 100%;
+    gap: 40px;
+    padding: 20px;
+  }
+  .h2content {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  .home6 img {
+    width: 100%;
+  }
+  .home7 {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    height: 100%;
+  }
+  .channels {
+    height: 100%;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+  .home8 {
+    flex-direction: column;
+    padding: 40px;
+  }
+}
+
+/* ------Laptop------ */
+@media (min-width: 768px) and (max-width: 1366px) {
+}
